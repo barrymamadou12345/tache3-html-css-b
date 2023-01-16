@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 7px;
+    font-family: verdana;
+}
+
+/*----------container-----*/
+
+.container{
+    width: 75%;
+    height: 550px;
+    margin:0 auto;
+    padding-top: 80px;
+    background:linear-gradient( rgba(118, 13, 238, 0.9), rgb(201, 70, 183)) ;
+}
+ 
+.resum{
+    width: 70%;
+    height: 470px;
+    margin: 0 auto;
+    display: flex;
+}
+/*----------img-----*/
+.image, .formul{
+    width: 50%;
+    height: auto;
+}
+
+.image img{
+    width: 100%;
+    height:470px;
+}
+
+.formul{
+    background-color: rgb(30, 5, 129);
+}
+
+.formul label{
+    font-size: 15px;
+    opacity:0.8;
+    color: #fff;
+}
+
+.formul n, p, .mom{
+    font-size: 15px;
+    opacity:0.8;
+    color: #fff;
+}
+
+.formul label{
+    display: inline-block;
+    width: 25%;
+}
+
+.allo{
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 93%;
+    margin:0 auto;
+}
+
+.inp1, .inp2{
+    background-color: rgb(30, 5, 129) ;
+    width: 55%;
+    border: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.inp2{
+    height: 100px;
+}
+
+h1{
+    padding-left: 30px;
+    color:  rgb(201, 70, 183) ;
+}
+
+input::placeholder{
+    color: #fff;
+    opacity: 0.8;
+}
+
+input{
+    color: #fff;
+}
+
+.bouton input{
+    font-size: 16px;
+    border: none;
+    background: linear-gradient(rgb(228, 64, 206), #444444, rgb(30, 5, 129));
+    text-align: center;
+    width: 50%;
+    height: 40px;
+}
+
+.image{
+    position: relative;
+}
+
+.image p{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(201, 70, 183) ;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*--------------media queries1-------------*/
+@media screen and (max-width:800px) {
+    h1{
+        padding-left: 0px;
+        color:  rgb(201, 70, 183) ;
+        font-size: 16px;
+    }
+
+    .allo{
+        padding-left: 5px;
+        padding-top: 30px;
+        width: 100%;
+        margin:0 auto;
+    }
+
+    .resum{
+        width: 90%;
+        height: 470px;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .image p{
+        width: 100%;
+        height: 90px;
+        background-color:rgb(201, 70, 183) ;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 12px;
+        font-family: verdana;
+    }
+    .container{
+        width: 95%;
+        height: 550px;
+        margin:0 auto;
+        padding-top: 80px;
+        background:linear-gradient( rgba(118, 13, 238, 0.9), rgb(201, 70, 183)) ;
+    }
+    .resum{
+        width: 90%;
+        height: 470px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
